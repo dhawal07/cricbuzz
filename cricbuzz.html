@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3fd17396c4.js" crossorigin="anonymous"></script>
+    <title>Home page</title>
+    <style>
+        #nav_container{
+            height: 54px;
+            width: 85%;
+            border: 1px solid black;
+            background-color: #009270;
+            display: grid;
+            grid-template-columns: repeat(13,1fr);
+            text-align: center;
+            margin: auto;
+        }
+        a:hover{
+           background-color: rgb(4, 121, 93);
+        }
+        #btn>a:hover{
+            background-color: rgb(238, 238, 238);
+        }
+        #nav_container>a{
+            padding: 18px 0px 8px 0px;
+           font-size: 18px;
+            text-decoration: none;
+            color: white;
+        }
+        #nav_container>img{
+            width: 130px;
+            padding: 5px 12px 0px 15px;
+        }
+        #nav_plus{
+            width: 120px;
+            color: black;
+            text-decoration: none;
+
+        }
+        #nav_liveScores{
+            width: 110px;
+        }
+        #btn{
+            height: 40px;
+            border-radius: 20px;
+            width: 140px;
+            border: 0px;
+            margin-top: 6px;
+            font-size: 16px;
+            text-align: center;
+            margin-right: 30px;
+        }
+     
+       #nav_signup:hover,#nav_search:hover{
+           background-color: #009270;
+           
+       }
+        
+    </style>
+</head>
+<body>
+    <div id="nav_container">
+        <img src="https://m.cricbuzz.com/public/images/cricbuzz/cb_logo.svg" alt="">
+        <a href="#" id="nav_liveScores">Live Scores</a>
+        <a href="#">Schedule</a>
+        <a href="#">Archives</a>
+        <a href="#">News <i class="fas fa-sort-down"></i></a>
+        <a href="#">Series <i class="fas fa-sort-down"></i></a>
+        <a href="#">Teams <i class="fas fa-sort-down"></i></a>
+        <a href="#">Videos <i class="fas fa-sort-down"></i></a>
+        <a href="#">Ranking <i class="fas fa-sort-down"></i></a>
+        <a href="#">more </a>
+        <button id="btn"> <a href="#" id="nav_plus"  >Cricbuzz Plus</a> </button>
+       <a href="#" id="nav_search"><i class="fas  fa-search" ></i></a>
+        <a href="#" id="nav_signup" ><i class="far fa-user-circle" ></i></a>
+    </div> 
+</body>
+</html>
