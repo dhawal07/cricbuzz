@@ -1,0 +1,49 @@
+*{
+    font-family: helvetica,Segoe UI,Arial,sans-serif;
+}
+
+#line1{
+    margin-left: 15px;
+}
+
+#cstopicid{
+   display: grid;
+   grid-template-columns: repeat(5,200px);
+   grid-template-rows: 1;
+   text-align: center;
+}
+div > .cstopic{
+    background-color: #CFE0DB;
+    color: black;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 5px 10px;   
+}
+
+.dates{
+    background-color: #e3e6e3;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    height: 30px;
+    width: 100%;
+}
+
+.tours{
+    display: grid;
+    grid-template-columns:repeat(3,33%);
+    grid-template-rows: 1;
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+
+.allp{
+    color: #666;
+    font-size: 12px;
+}
+
+.tourhead{
+    font-weight: bold;
+}
