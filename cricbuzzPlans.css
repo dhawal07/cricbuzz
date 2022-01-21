@@ -1,0 +1,194 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#login_navbar{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 70px;
+    background-color: rgb(0,146,112);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#plans_left{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+   
+}
+#plans_right{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    cursor: pointer;
+}
+#plans_right>div>input{
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 0;
+    cursor: pointer;
+}
+.symbol{
+    background-color: rgb(0,146,112);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;  
+}
+#cricbuzzPlan_container{
+    justify-content: space-around;
+     width: 80%;
+     display: grid;
+     padding-top: 20px;   
+     margin: auto;
+     margin-top:10px;
+     grid-template-columns: repeat(2, 420px);
+     background-color:rgb(3,170,151);
+     grid-template-rows: repeat(1,350px);
+     /* border: 1px solid red; */
+     grid-gap:0px;
+     color: white;   
+ }
+#leftdivtop>div>input{
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#rightdivtop>img{
+    height: 90%;  
+}
+#benefits{
+    margin: auto;
+    text-align: center;
+}
+#benefits>p{
+    margin-top: -15px;
+}
+#cricbuzzPlan_container1{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(2,160px); 
+    margin: auto;
+    padding: auto;
+    gap: 1px;
+}
+#cricbuzzPlan_container1>div{
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+#cricbuzzPlan_container1>div>div>img{
+ padding-right: 10px;
+ border-radius: 5px;
+}
+#cricbuzzPlan_content>p{
+    margin-top: -15px;
+}
+#ptag{
+    font-size: small;
+    margin: auto;
+}
+#newptag{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+hr{
+    width: 80%;
+    color: grey;
+}
+#cricbuzzPlan_container2{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.boxes{
+    width: 32%;
+    height: 135px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.plan{
+    height: 18%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 30px;
+    padding-left: 30px;
+    background-color: #ffd361;
+    color: black;
+}
+.content{
+    width: 94%;
+    height: 80%;
+    padding-left: 20px;
+}
+span{
+    font-size: 28px;
+}
+.boxes:hover{
+    background-color: #009270;
+    color: white;
+    cursor: pointer;
+}
+i{
+    font-size: 28px;
+}
+.membership{
+    font-size: 13px;
+}
+#lastBox{
+margin-top: 7%;
+}
+.membership>span{
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+#cricbuzzPlan_container3{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.boxes1{
+    width: 32%;
+    height: 225px;
+    margin: 20px;
+    margin-top: -2px;
+    font-size: x-small;
+}
+#cricbuzzPlan_lastbox{
+    margin: auto;
+    width: 40%;
+    height: 100px;
+    margin-top: -150px;
+    
+}
+#cricbuzzPlan_lastbox>input{
+    background-color: #009270;
+    margin-left: 180px;
+    text-align: center;
+    height: 25px;
+    border-radius: 5px;
+}
+#cricbuzzPlan_lastbox>p{
+    margin-left: 70px;
+}
+#continue{
+    width: 30%;
+    background-color: rgb(54, 180, 153);
+    border-radius: 10px;
+    height: 40px;
+    margin-left:180px;
+    cursor: pointer;
+}
