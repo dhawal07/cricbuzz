@@ -2,7 +2,6 @@
         *{
             box-sizing: border-box;
             font-family: 'Noto Sans', sans-serif;
-
         }
      body{
          font-family: sans-serif;
@@ -11,24 +10,23 @@
      #nav_container{
          width: 80%;
         margin: auto;
-         
+        border-bottom: 4px solid rgb(201, 199, 199);
      }
      #nav_Uppercontainer{
          background-color: #009270;
          text-align: center;
+         height: 3.5rem;
+         border-bottom: 2px solid #02795d;
      }
      #nav_Uppercontainer a{
          text-decoration: none;
          color: white;
+         font-size: 16px;
         align-items: center;
+        margin: 0px;
+        padding: 19px 6px;
+     }
 
-     }
-     
-     a{
-         font-size: 17px;
-         margin: 0px  ;
-         padding: 18px 13px;
-     }
      #nav_signup:hover{
          background-color: #009270 ;
      }
@@ -46,7 +44,6 @@
         align-items: center;
         height: 56px;
      }
-    
      #nav_Uppercontainer img{
         width: 120px;
         height: 50px;
@@ -93,6 +90,7 @@
          margin-top: 20px;
          margin-left: 0px;
         justify-content: space-around;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
      }
      #nav_Uppercontainer ul li:hover .drop_Down_Bar ul{
          display: block;
@@ -115,21 +113,25 @@
      #nav_Lowercontainer{
          background-color: #4a4a4a;
          display: grid;
-         grid-template-columns: 7% 12% 16% 16% 15% 16% 26%;
+         grid-template-columns: 7% 12% 16% 16% 15% 16% 30%;
          text-align: center;
      }
      #nav_Lowercontainer>a{
          text-decoration: none;
          color: white;
          font-size: 14px;
+         padding: 13px 12px;
      }
      #nav_Lowercontainer>a:hover{
          background-color: #333333;
      }
      #nav_all{
-         margin-left: 145px;
+         margin-left: 165px;
          margin-right: auto;
-         padding-left: 20px;
-         padding-right: 20px;
+         padding-left: 25px;
+         padding-right: 45px;
 
      }
+     #nav_container .fas{
+    margin: 0px;
+}

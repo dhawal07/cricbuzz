@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navBar.css">
     <link rel="stylesheet" href="footer.css">
+
     <script src="https://kit.fontawesome.com/0f016fdc02.js" crossorigin="anonymous"></script>
     
     </style>
@@ -23,11 +24,11 @@
                 <li><img
                     src="https://m.cricbuzz.com/public/images/cricbuzz/cb_logo.svg"
                     alt=""></li>
-                    <li><a href="#">Live Scores</a></li>
-                    <li><a href="#">Schedule</a></li>
-                    <li><a href="#">Archives</a></li>
-                    <li><a href="#">News <i class="fas fa-sort-down"></i></a>
-                    <div class="drop_Down_Bar">
+                    <li><a href="liveScore.html">Live Scores</a></li>
+                        <li><a href="ScheduleCricbuzz.html">Schedule</a></li>
+                        <li><a href="archives.html">Archives</a></li>
+                        <li><a href="">News <i class="fas fa-sort-down"></i></a>
+                        <div class="drop_Down_Bar">
                         <ul>
                             <li>All Stories</li>
                             <li>Cricbuzz Plus</li>
@@ -143,36 +144,37 @@
         <a href="#" id="nav_all">ALL <i class="fas fa-sort-down"></i></a>
     </div>
 </div>
+<div id="featuredMatches"><h1>FEATURED MATCHES</h1></div>
     <div id="containerfrontpage">
-   
+        
         <div id="box1">
            
              <div>
                  
                  <p>ZIM205-3 (35.1)</p>
                  <p>SL</p>
-                 <p>Zimbabwe opt to bat</p>
+                 <span>Zimbabwe opt to bat</span>
 
              </div>
              <div>
                 <p>South Africa</p>
                 <p>India</p>
-                <p>Wednesday, 19 Jan, 02:00</p>
+                <span>Wednesday, 19 Jan, 02:00</span>
 
              </div>
              <div>
                 <p>Sydney Thunder</p>
                 <p>Melbourne Renegades</p>
-                <p>Melbourne Renegades opt </p>
+                <span>Melbourne Renegades opt </span>
 
              </div>
-             <div>
+             <div id="lastdiv">
                 <p>ZIM205-3 (35.1)</p>
                 <p>SL</p>
-                <p>Zimbabwe to bat</p>
+                <span>Zimbabwe to bat</span>
 
              </div>
-                
+             <i style="font-size: 50px; color: #009270; margin-top: 68px; opacity: 70%; margin-left: -120px; cursor: pointer;" class="fas fa-chevron-circle-right"></i>
                  
         </div>
         <div id="box2">
@@ -427,3 +429,4 @@
   
 </body>
 </html>     
+<script src="NavBar.js"></script>
