@@ -14,7 +14,7 @@
     margin-top: 3px;
     margin-left: 25px;
     height: 42px;
-    
+    cursor: pointer;
 }
 hr{
 width: 80%;
@@ -31,6 +31,9 @@ color: grey;
     /* border: 1px solid black; */
     margin: auto;
   
+}
+#toHome{
+    cursor: pointer;
 }
 #login_left{
     width: 20%;
@@ -80,9 +83,14 @@ form>input{
 }
 #continue{
     width: 25%;
-    background-color: rgb(113,202,182);
+    background-color: #009270;
     border-radius: 10px;
-    height: 30px;
     margin-left:180px;
     cursor: pointer;
+    font-size: 17px;
+    color: white;
+    padding: 10px 20px;
+}
+#continue:hover{
+    background-color: #02755a;
 }

@@ -14,14 +14,14 @@
 <body>
     <div id="login_navbar">
             <div>
-                <img src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
+                <img id="frontPageImg" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
             </div>      
     </div>
 
     <div id="login_navbar1">
         <div id="login_left">
             <div>
-                <p> Home ></p>
+                <p id="frontPage"> Home ></p>
             </div>
             <div>
                 <h3> Account</h3>
@@ -45,17 +45,4 @@
     </div>
 </body>
 </html>
-<script>
-   function otp_pay(){
-    var otpNo=document.querySelector(".otp").value;
-    if(otpNo=="1234")
-    {
-   window.location.href="cricbuzzPlans.html";
-   
-    }
-    else if(otpNo!=="1234"){
-        alert("Invalid OTP")
-    }
-//    return false; 
-}
-</script>
+<script src="cricbuzz_Otp.js"></script>

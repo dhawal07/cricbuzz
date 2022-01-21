@@ -15,14 +15,14 @@
 <body>
     <div id="login_navbar">
         <div id="plans_left">
-            <img src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
+            <img id="plansIMG" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
         </div> 
         <div id="plans_right">
-            <div>
-                <input type="text" placeholder="View all plans">
+            <div class="planUserbutton">
+                <button>View all plans</button>
             </div>
             <div>
-                <input class="symbol"type="text" placeholder="Login">
+                <button id="plansUser"> <i class="far fa-user-circle" ></i> &nbsp; Login</button>
             </div>   
         </div>     
     </div>
@@ -32,8 +32,8 @@
             <p>Cricbuzz Plus + Times Prime</p>
             <h1>1 Year Combo Plan</h1>
             <div >
-                <input type="text" placeholder="Unlock now for INR 999">
-                <input type="text" placeholder="Learn more">
+                <button>Unlock now for INR 999</button>
+                <button id="learnMore">Learn more</button>
             </div>
             <p>By continuing you agree to Cancellation & Refund Policy</p>
         </div>
@@ -148,8 +148,11 @@
     </div>
 </div>
  <div id="cricbuzzPlan_lastbox">
-    <p> <i class="far fa-check-circle"></i> &nbsp; I agree with the Cancellation & Refund Policy of Cricbuzz</p>
+    <p> <input type="checkbox" id="myCheckBox" >&nbsp; I agree with the Cancellation & Refund Policy of Cricbuzz</p>
     <button id="continue">Continue to Payment</button>
  </div>
+ <div id="memberOrNot">Already a member? <a href="cricbuzz_login.html">Login</a></div>
 </body>
 </html>
+
+<script src="cricbuzzPlans.js"></script>

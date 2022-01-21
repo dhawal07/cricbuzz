@@ -13,14 +13,14 @@
 <body>
     <div id="login_navbar">
             <div>
-                <img src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
+                <img id="homeTransfer" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
             </div>      
     </div>
 
     <div id="login_navbar1">
         <div id="login_left">
             <div>
-                <p> Home ></p>
+                <p id="toHome"> Home ></p>
             </div>
             <div>
                 <h3> Account</h3>
@@ -37,27 +37,14 @@
         <form class="login_box">
             <br>
             <br>           
-           <input class="username" type="text" placeholder="Enter your email id"/>
+           <input class="username" id="emailID" value="" type="text" placeholder="Enter your email id"/>
             <br>
             <br>
             <br>
-            <p>I agree with the Terms of Use and Privacy Policy of Cricbuzz </p>
+            <p><input id="checkBox" type="checkbox"> I agree with the Terms of Use and Privacy Policy of Cricbuzz </p>
         </form>
         <button id="continue" onclick="signin()">continue</button>
     </div>
 </body>
 </html>
-<script>
-function signin(){
-    var username=document.querySelector(".username").value;
-    if(username=="admin@gmail.com")
-    {
-   window.location.href="cricbuzz_Otp.html";
-   
-    }
-    else if(username!=="admin@gmail.com"){
-        alert("Invalid Email ID")
-    }
-//    return false; 
-}
-</script>
+<script src="cricbuzz_login.js"></script>

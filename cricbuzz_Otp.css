@@ -6,15 +6,16 @@
 #login_navbar{
     /* border: 1px solid red; */
     width: 80%;
-    height: 70px;
+    height: 60px;
     background-color: rgb(0,146,112);
     margin: auto;
     margin-bottom: 10px;
 }
 #login_navbar>div>img{
-    margin-top: 10px;
+    margin-top: 6px;
     margin-left: 20px;
-    height: 50px;
+    height: 45px;
+    cursor: pointer;
 }
 
 #login_navbar1{
@@ -80,10 +81,19 @@ form>input{
 }
 #otp_continue{
     width: 25%;
-    background-color: rgb(113,202,182);
+    background-color: #009270;
     border-radius: 10px;
-    height: 30px;
-    margin-left:180px;
-    margin-top: 20px;
-  
+    margin-left:195px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+}
+#otp_continue:hover{
+    background-color: #01664e;
+}
+#frontPage{
+    cursor: pointer;
 }
