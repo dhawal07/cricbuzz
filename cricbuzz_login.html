@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel="stylesheet" href="cricbuzz_Otp.css"/>
+    <link rel="stylesheet" href="cricbuzz_login.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -31,30 +30,33 @@
             <img src="https://www.cricbuzz.com/images/cb_logo_plus_color.svg" alt="">
         </div>
     </div>
-    
-
-    <div id="OTP_main">
-        <h1>Enter the 6 digit OTP</h1>
-        <p> OTP sent to your entered email id</p>
-        <form>
+    <hr>
+    <div id="login_main">
+        <h1>Login / Sign Up </h1>
+        <p>We will send OTP to your email id</p>
+        <form class="login_box">
             <br>
-            <i class="far fa-envelope"></i>
-           <input class="otp" type="number" placeholder="Enter OTP"/>
+            <br>           
+           <input class="username" type="text" placeholder="Enter your email id"/>
+            <br>
+            <br>
+            <br>
+            <p>I agree with the Terms of Use and Privacy Policy of Cricbuzz </p>
         </form>
-        <button id="otp_continue" onclick="otp_pay()">submit</button>
+        <button id="continue" onclick="signin()">continue</button>
     </div>
 </body>
 </html>
 <script>
-   function otp_pay(){
-    var otpNo=document.querySelector(".otp").value;
-    if(otpNo=="1234")
+function signin(){
+    var username=document.querySelector(".username").value;
+    if(username=="admin@gmail.com")
     {
-   window.location.href="cricbuzzPlans.html";
+   window.location.href="cricbuzz_Otp.html";
    
     }
-    else if(otpNo!=="1234"){
-        alert("Invalid OTP")
+    else if(username!=="admin@gmail.com"){
+        alert("Invalid Email ID")
     }
 //    return false; 
 }
