@@ -139,3 +139,17 @@ input,h5:hover{
         margin-top:-32px;
         height:-20px;
 }
+.videoimage{
+    position: relative;
+    width: 100%;
+}
+.imagetag1{
+    width: 100%;
+    border-radius: 5px;
+}
+.imagetag2{
+    position: absolute;
+    left: 85%;
+    top: -2%;
+}
+
