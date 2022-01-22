@@ -1,7 +1,6 @@
 *{
     font-family: 'Noto Sans', sans-serif;
 }
-
 #login_navbar{
     /* border: 1px solid red; */
     width: 80%;
@@ -60,8 +59,6 @@ color: grey;
 #login_main{
     margin: auto;
     width: 35%;
-    height: 250px;
-    
 }
 #login_main>p{
     margin-top: -10px;
