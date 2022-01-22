@@ -1,13 +1,17 @@
 *{
     font-family: helvetica,"Segoe UI",Arial,sans-serif;
 }
+body{
+    background-color:#e2e6e3 ;
 
+}
 #bigpro{
     width: 80%;
     margin: auto;
     align-items: center;
     display: flex;
     border: solid silver 1px;
+    background-color: white;
 }
 
 #smpro1{
