@@ -1,22 +1,26 @@
 *{
     font-family: helvetica,Segoe UI,Arial,sans-serif;
 }
-
+body{
+    background-color: #e3e6e3;
+}
 
 #containerschedule{
     width: 80%;
     margin: auto;
+    background-color: white;
 }
 
 
 #line1{
     margin-left: 15px;
+    padding-top: 15px
 }
 
 #cstopicid{
    display: grid;
    grid-template-columns: repeat(5,180px);
-   padding: 5px;
+   padding: 5px 15px;
    
 }
 
@@ -47,7 +51,7 @@
     font-weight: bold;
     height: 30px;
     width: 100%;
-    padding-left: 5px; ;
+    padding-left: 15px; ;
     padding-top: 10px;
 }
 
@@ -57,6 +61,7 @@
     grid-template-rows: 1;
     margin-right: 45px;
     margin-bottom: 50px;
+    padding-left: 15px;
 }
 
 .allp{
