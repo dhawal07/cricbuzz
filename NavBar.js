@@ -5,7 +5,7 @@
     }
     document.getElementById("nav_signup").addEventListener("click",signup)
     function signup(){
-        window.location.href= "profilefile.html"
+        window.location.href= "profilede.html"
     }
     document.getElementById("homepage").addEventListener("click",homeComming)
     function homeComming(){
