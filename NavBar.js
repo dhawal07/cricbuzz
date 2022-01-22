@@ -5,7 +5,7 @@
     }
     document.getElementById("nav_signup").addEventListener("click",signup)
     function signup(){
-        window.location.href= "cricbuzz_login.html"
+        window.location.href= "profilefile.html"
     }
     document.getElementById("homepage").addEventListener("click",homeComming)
     function homeComming(){
