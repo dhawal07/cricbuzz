@@ -25,7 +25,7 @@
         display: grid;
         
         grid-template-columns: repeat(12,1fr);
-        grid-template-rows:  180px   ;
+        grid-template-rows:  160px   ;
         gap: 5px;
         grid-template-areas: 
         "a a a a a a a a a a a a"
@@ -44,23 +44,25 @@
         background-color: white;
         display: flex;
         justify-content: space-evenly;
-        gap: 30px;
+        gap: 0px;
     }
     #box1 span{
         color: red;
     }
     #box1 > div{
-        border-right: 1px solid gray;
+        border-right: 1px solid rgb(182, 182, 182);
         margin-top: 20px;
-        margin-bottom: 20px;
-        margin-right: 30px;
-        padding: 20px;
-     
+        
+        margin-right: -40px;
+        padding-right: 100px;
+        padding-left: -50px;
+        height: 60%;
     }
 
     #box2{
         grid-area: b;
          background-color: white;
+
     }
 
     #box3{
