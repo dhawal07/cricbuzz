@@ -16,7 +16,11 @@ body{
     margin-left: 15px;
     padding-top: 15px
 }
+body{
 
+    margin: 0;
+    padding: 0;
+}
 #cstopicid{
    display: grid;
    grid-template-columns: repeat(5,180px);

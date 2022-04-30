@@ -11,6 +11,11 @@ background: linear-gradient(71deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 34%, rgba(202
     /* border: 1px solid red; */
     grid-gap:0px
 }
+body{
+
+    margin: 0;
+    padding: 0;
+}
 .leftdivtop{
     color: white;
     font-size: x-large; 

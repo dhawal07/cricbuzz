@@ -1,5 +1,7 @@
 body{
     background-color: #e2e6e3;
+    margin: 0;
+    padding: 0;
 }
 #bigbox{
     width: 800px;

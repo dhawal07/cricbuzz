@@ -13,7 +13,11 @@ body{
     border: solid silver 1px;
     background-color: white;
 }
+body{
 
+    margin: 0;
+    padding: 0;
+}
 #smpro1{
     width: 40%;
     margin-left: 120px;
